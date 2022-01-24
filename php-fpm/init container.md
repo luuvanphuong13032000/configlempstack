@@ -1,0 +1,1 @@
+docker run -d --name php-fpm -h php -v /thumuctrenhost:/usr/share/nginx/html -p 9000:9000 php:7.3-fpm
